@@ -6,3 +6,4 @@ class Peashooter:
         self.images = [pygame.image.load('photo\plant\init_wd\{:d}.Png'.format(i)) for i in range(13)]
         self.rect = self.images[0].get_rect()
         self.rect.left, self.rect.top = 300, 300
+        self.zone=(0,0)
